@@ -15,4 +15,7 @@ for (let nyawa = 3; nyawa >= 1; nyawa--) {
         alert(`Tebakan anda terlalu RENDAH! \nAnda masih punya ${nyawa - 1} kesempatan`);
     }
 
+    if(nyawa == 1){
+        alert(`Anda GAGAL! \nAngka yang dicari adalah : ${angkaYangBenar}`);
+    }
 }
